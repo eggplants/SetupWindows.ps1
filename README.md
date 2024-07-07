@@ -5,6 +5,7 @@ A setup script for Windows
 ## Run
 
 ```ps1
-Set-AuthenticodeSignature $ScriptFileFullPath.Source $RootCert
+# Run powershell as an admin
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 setup-windows.ps1
 ```
