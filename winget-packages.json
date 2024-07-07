@@ -1,6 +1,3 @@
-// 20240707225500
-// https://gist.githubusercontent.com/eggplants/dbb8e7195ea060b6e60375891b740a91/raw/5cd2e3757b8fea5aaada62e6f92d335d372d8d4f/winget-packages.json
-
 {
   "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
   "CreationDate": "2024-07-07T22:25:08.023-00:00",
