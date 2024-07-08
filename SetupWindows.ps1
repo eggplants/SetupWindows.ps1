@@ -38,7 +38,7 @@ Set-AuthenticodeSignature $ScriptFileFullPath.Source $RootCert
 
 # nano-win
 mkdir -Path nano-win,~\nano,~\nanorc
-cd nano-win
+pushd nano-win
 $targetHost = "https://files.lhmouse.com/nano-win/"
 $content = (Invoke-WebRequest $targetHost).Content.Split([Environment]::NewLine) | Select-String 'nano-win' -List -SimpleMatch |  Select-Object -First 1
 $targetUrl = $content.ToString() | ForEach-Object { $targetHost + $_.split('"')[3] }
@@ -60,7 +60,7 @@ set numbercolor white,blue
 set selectedcolor white,green
 set statuscolor white,green
 '@ | Out-File -FilePath ~\.nanorc
-cd ..
+popd
 rm -r nano-win
 
 # set profile
