@@ -7,5 +7,5 @@ A setup script for Windows
 ```ps1
 # Run powershell as an admin
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
-SetupWindows.ps1
+. SetupWindows.ps1
 ```
