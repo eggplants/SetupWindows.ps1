@@ -10,7 +10,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 . SetupWindows.ps1
 ```
 
-## Famoly
+## Family
 
 - [eggplants/setup-macos.zsh](https://github.com/eggplants/setup-macos.zsh)
 - [eggplants/setup-termux.sh](https://github.com/eggplants/setup-termux.sh)
