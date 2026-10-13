@@ -1,4 +1,4 @@
-# My Windows Environment
+# Moved 👉 [`eggplants/mise-bootstrap`](https://github.com/eggplants/mise-bootstrap)
 
 A setup script for Windows
 
